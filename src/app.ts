@@ -1,6 +1,7 @@
 import express, { Application } from "express";
 import cors from "cors";
 import { ACEPTED_ORIGINS } from "../config";
+import { productRouter } from "./application/products/product.routes";
 
 export const app: Application = express();
 
@@ -19,4 +20,5 @@ app.use(cors({
 }));
 app.disable('x-powered-by');
 
+app.use("/api", productRouter);
 app.use("/", (_req, res) => res.status(404));
