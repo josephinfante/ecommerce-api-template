@@ -30,6 +30,7 @@
     "@types/uuid": "9.0.3",
     "dotenv": "16.3.1",
     "standard": "17.1.0",
+    "supertest": "6.3.3",
     "ts-node-dev": "2.0.0",
     "typescript": "5.2.2",
     "vitest": "0.34.3"
