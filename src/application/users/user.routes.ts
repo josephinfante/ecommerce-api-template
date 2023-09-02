@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { UserRepositoryImpl } from "../../infrastructure/user/user.repository.impl";
+import { UserRepositoryImpl } from "../../infrastructure/users/user.repository.impl";
 import { UserCrudUseCase } from "./usecases/user-crud.usecase";
 import { UserAuthUseCase } from "./usecases/user-auth.usecase";
 import { UserController } from "./user.controller";
